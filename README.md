@@ -10,7 +10,7 @@
 ---
 
 ## Technologies utilisées
-- **Backend** : Java 11, PDO, MySQL
+- **Backend** : Java 11, JDBC, MySQL
 - **Authentification** : JNA (Windows Auth)
 - **Interface** : Java Swing
 - **Base de données** : MySQL 8+
