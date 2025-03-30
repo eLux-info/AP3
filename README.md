@@ -78,7 +78,7 @@ Le projet utilise les bibliothèques suivantes :
 
 2. **Compiler le projet** :
    - Ajoutez bien les librairies se trouvant dans `/libs` à votre projet
-   - Assurez-vous que toutes les dépendances (JNA, MySQL Connector/J) sont disponibles dans le classpath.
+   - Assurez-vous que toutes les dépendances (JNA, MySQL Connector/J) sont disponibles dans le modulepath.
 
 3. **Compilation du projet**
 
@@ -121,7 +121,7 @@ java -cp "lib/*" org.junit.runner.JUnitCore TestConnection
    - Vérifier les droits de l'utilisateur dans MySQL
 
 3. Erreur de chargement des bibliothèques
-   - Vérifier que JNA et MySQL Connector/J sont dans le classpath
+   - Vérifier que JNA et MySQL Connector/J sont dans le modulepath
    - Utiliser les versions compatibles mentionnées ci-dessus
 
 ---
