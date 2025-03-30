@@ -21,7 +21,8 @@
 
 4. **Interface utilisateur graphique** :
    - Utilise Swing pour une interface intuitive.
-   - Deux écrans principaux :
+   - Trois écrans principaux :
+     - Écran de connexion pour identifier l'utilisateur.
      - Écran d'entrée pour saisir le code de forfait.
      - Écran de compte à rebours pour gérer le temps restant.
 
