@@ -139,4 +139,4 @@ java -cp "lib/*" org.junit.runner.JUnitCore TestConnection
 
 ## Licence
 
-Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+Ce projet est distribué sous la licence MIT.
