@@ -9,6 +9,14 @@
 
 ---
 
+## Technologies utilisées
+- **Backend** : Java 11, PDO, MySQL
+- **Authentification** : JNA (Windows Auth)
+- **Interface** : Java Swing
+- **Base de données** : MySQL 8+
+
+---
+
 ## Fonctionnalités principales
 1. **Authentification Windows** :
    - Utilise la bibliothèque JNA pour authentifier les utilisateurs via leurs identifiants Windows.
