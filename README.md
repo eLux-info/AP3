@@ -57,6 +57,42 @@ Le projet est organisé en plusieurs packages :
 ### 4. `com.arrasgame.main`
 - **Main** : Point d'entrée de l'application.
 
+### Diagramme de classe
+```mermaid
+classDiagram
+    class User {
+        +BigInteger id
+        +String name
+        +String email
+        +String role
+    }
+
+    class Package {
+        +BigInteger id
+        +String name
+        +Decimal price
+        +Integer duration_hours
+    }
+
+    class UserPackage {
+        +String code
+        +Integer remaining_time
+        +Timestamp expires_at
+    }
+
+    class Machine {
+        +BigInteger id
+        +String name
+        +String processor
+        +Integer ram
+        +Boolean is_available
+    }
+
+    User "1" --> "*" UserPackage : possède
+    Package "1" --> "*" UserPackage : correspond à
+    UserPackage "0..1" --> "1" Machine : utilise
+```
+
 ---
 
 ## Configuration requise
