@@ -1,7 +1,7 @@
 # ArrasGameClient
 
 ## Accès à l'application
-- **Application** : [Télécharger le .jar](https://github.com/eLux-info/AP3/releases/tag/1.0.0)
+- **Application** : [Télécharger .jar/.exe](https://github.com/eLux-info/AP3/releases/tag/1.0.0)
 - **Compte** : Utilisez vos identifiants Windows actifs
 
 ## Description
