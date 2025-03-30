@@ -1,7 +1,7 @@
 # ArrasGameClient
 
 ## Accès à l'application
-- **Application** : [Télécharger le .jar]() ❗ (https://github.com/eLux-info/AP3/releases/tag/1.0.0)
+- **Application** : [Télécharger le .jar](https://github.com/eLux-info/AP3/releases/tag/1.0.0)
 
 ## Description
 **ArrasGameClient** est une application Java qui combine une interface utilisateur graphique (Swing), une authentification Windows, et une gestion de base de données MySQL. Elle permet aux utilisateurs de se connecter via leurs identifiants Windows, d'entrer un code de forfait, et de gérer un compte à rebours associé à ces forfaits.
